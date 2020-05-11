@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.7.6",
+    "jekyll": "^3.0.0-beta1",
+    "purgecss": "^1.1.0",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
   }
