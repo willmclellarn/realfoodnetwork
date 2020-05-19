@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jekyll-postcss (0.2.2)
+    jekyll-purgecss (0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-postcss
+  jekyll-purgecss
+
+BUNDLED WITH
+   2.1.4

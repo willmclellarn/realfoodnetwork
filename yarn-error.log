@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/willmclellarn/.rvm/gems/ruby-2.6.0/bin:/Users/willmclellarn/.rvm/gems/ruby-2.6.0@global/bin:/Users/willmclellarn/.rvm/rubies/ruby-2.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/willmclellarn/.rvm/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/willmclellarn/1-Projects/building_something_shitty/node_modules/@fullhuman/postcss-purgecss/node_modules/purgecss/README.md'
+
+npm manifest: 
+  {
+    "name": "building_something_shitty",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "autoprefixer": "^9.7.6",
+      "jekyll": "^3.0.0-beta1",
+      "purgecss": "^1.1.0",
+      "postcss-cli": "^7.1.1",
+      "tailwindcss": "^1.4.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
